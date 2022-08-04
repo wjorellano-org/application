@@ -1,29 +1,13 @@
 package Views;
-
-import java.awt.Color;
-
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-
 /**
  *
  * @author wjorellano
  */
-public class Layout extends JFrame{
+public class Layout{
 
-    public Layout(){
-        setSize(500,500);
-        setTitle("Aplicacion");
-        setLocationRelativeTo(null);
-        setDefaultCloseOperation(EXIT_ON_CLOSE);
-
-        panelComponent();
+    void setVisible(boolean b) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
-
-    public void panelComponent(){
-        JPanel panel = new JPanel();
-        panel.setBackground(Color.WHITE);
-        // add(panel);
-        this.getContentPane().add(panel);
-    }
+    
+ 
 }
